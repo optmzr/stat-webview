@@ -4,5 +4,5 @@ QT += webenginewidgets
 
 SOURCES += main.cpp
 
-target.path = ./stat-webview
+target.path = $${PREFIX}/bin
 INSTALLS += target
