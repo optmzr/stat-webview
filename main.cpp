@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     app.setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QWebEngineView view;
+    view.page()->setBackgroundColor(Qt::black);
     view.setUrl(url);
     view.resize(resolution);
     view.show();
